@@ -1,5 +1,5 @@
-# Kejin
+# Codingflood
 
-> 自己选的路，跪着也要走下去
+> 佛观一粒米，大如须弥山。
 
-![Blog](/assets/img/blog.png)
+![Blog](/assets/img/codingflood.png)

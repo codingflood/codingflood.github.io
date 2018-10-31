@@ -1,9 +1,9 @@
 # Site settings
-title: Liang Ke Jin
-description: Liang Ke Jin
-favicon: /assets/img/avatar.JPG
+title: Codingflood
+description: 佛观一粒米，大如须弥山。
+favicon: /assets/img/codingflood.JPG
 baseurl:
-url: https://liungkejin.github.io
+url: https://codingflood.github.io
 rss_url:
 
 # Build settings
