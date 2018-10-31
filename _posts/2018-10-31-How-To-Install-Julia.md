@@ -1,8 +1,10 @@
 ---
+title: 在Debian Linux上快速简单安装julia
+date: 2018-10-31
+comment: true
+---
 
 ## title: 在Debian Linux上快速简单安装julia
-
----
 
 如何在Debian Linux中快速简单的安装julia呢？
     
@@ -12,21 +14,21 @@ julia是没有简单的deb包的，不能通过终端直接apt-get install来安
     
 到官网上https://julialang.org/downloads/ 下载一个Generic Linux Binaries for x86包，根据你的电脑选择32还是64位的，如图：
 
-![julia 安装包下载](/assets/img/juliapkg1.png/683x384)
+![julia 安装包下载](assets/img/juliapkg1.png/683x384)
 
 下载下来之后，解压到你想放的位置：
 
-![julia 安装](/assets/img/juliapkg2.png/683x384)
+![julia 安装](assets/img/juliapkg2.png/683x384)
 
 
-![julia 安装](/assets/img/juliapkg3.png/683x384)
+![julia 安装](assets/img/juliapkg3.png/683x384)
 
 
-![julia 安装](/assets/img/juliapkg4.png/683x384)
+![julia 安装](assets/img/juliapkg4.png/683x384)
 
 其中，julia可运行程序就在bin文件夹中：
 
-![julia 安装](/assets/img/juliapkg5.png/683x384)
+![julia 安装](assets/img/juliapkg5.png/683x384)
 
 在这个时候，julia可以右键运行程序了，但是要在全局任何位置打开终端键入julia都可以运行的话还要做最后一个工作，打开终端键入：
 
