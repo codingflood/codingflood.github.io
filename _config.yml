@@ -1,31 +1,57 @@
-# Site settings
-title: Codingflood
-description: 佛观一粒米，大如须弥山。
-favicon: /assets/img/codingflood.JPG
-baseurl:
-url: https://codingflood.github.io
-rss_url:
+# basic
+# ============================================================================
+# if your site is serving on https://xxx.github.io, set `baseurl: /`
+# if your site is serving on https://xxx.github.io/path, set `baseurl: /path`
+baseurl: /
 
-# Build settings
+# site title
+title: Ｃodingflood
 
-highlight: true
-#highlighter: rouge
+# site favicon, absolute path required
+favicon: /assets/img/favicon.ico
 
-timezone: Asia/Shanghai
+# home button image, absolute path requried
+avatar: /assets/img/codingflood.png
+# specify meaningful description for your avatar
+avatarInfo: "codingflood"
 
-markdown: kramdown
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+# default variables for post-type page
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comment: true
 
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+
+# sass
+# ============================================================================
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# exclude none site related files
+# ============================================================================
+exclude:
+  - README.md
+  - LICENSE
+  - github
+  - package.json
+  - package-lock.json
+  - node_modules
+
+
+# google analytics
+# ============================================================================
+# turn it off -> ga: false
+ga: false
+
+
+# disqus
+# ============================================================================
+# turn it off for all posts -> disqus: false
+# turn it off for a particular post -> add `comment: false` to post front matter
+disqus: kkninjae
