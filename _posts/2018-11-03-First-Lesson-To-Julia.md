@@ -40,7 +40,7 @@ date: 2018-11-1
 
 ![hello.jl](/assets/img/LJulia2.png)
 
--在终端shell界面直接计算或运行表达式
+- 在终端shell界面直接计算或运行表达式
 
 ```
     julia -e 'println(PROGRAM_FILE); for x in ARGS; println(x); end' Hello world "Hello world"
