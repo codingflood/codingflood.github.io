@@ -64,7 +64,7 @@ date: 2018-11-03
 
 
 <table border="1">
-    <tr bgcolor="Beige";>
+    <tr bgcolor="Beige">
         <th>Switch</th>
         <th>Description</th>
     </tr>
