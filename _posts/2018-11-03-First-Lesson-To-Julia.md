@@ -1,7 +1,10 @@
 ---
 title: julia基础第一课
+
 author: Ａlgar
+
 date: 2018-11-1
+
 ---
 
 ## julia基础操作
@@ -180,7 +183,7 @@ date: 2018-11-1
     <tr bgcolor="Azure">
         <td>--track-allocation</td>
         <td>equivalent to --track-allocation=user</td>
-    </tr>      
+    </tr>
 </table>
 
 
