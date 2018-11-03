@@ -3,7 +3,7 @@ title: julia基础第一课
 
 author: Ａlgar
 
-date: 2018-11-1
+date: 2018-11-03
 
 ---
 
@@ -32,6 +32,7 @@ date: 2018-11-1
 ```
     julia script.jl arg1 arg2 ...
 ```
+
 >例如，把收下内容保存为hello.jl
 
 ```
@@ -39,7 +40,8 @@ date: 2018-11-1
         println(a, "，今天过来喝酒吧！")
     end
 ```
-然后打终端进入文件所在目录
+
+>然后打终端进入文件所在目录
 
 ![hello.jl](/assets/img/LJulia2.png)
 
@@ -57,7 +59,9 @@ date: 2018-11-1
 ```
     julia [switches] -- [programfile] [args...]
 ```
+
 - 详细列表
+
 
 <table border="1">
     <tr bgcolor="Beige";>
@@ -188,5 +192,6 @@ date: 2018-11-1
 
 
 ---
+
  相关资源列表及在线教程见[https://julialang.org/learning/](https://julialang.org/learning/)
 
